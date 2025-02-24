@@ -1,0 +1,152 @@
+  1  vi demo 
+    2  cat demo 
+    3  tail demo
+    4  mkdir aws
+    5  ls
+    6  touch aws/azure.txt
+    7  ls
+    8  ls aws
+    9  pwd
+   10  mkdir gcp
+   11  touch aws/file1 gcp/file2
+   12  ls
+   13  ls gcp aws
+   14  mkdir dir{1..20}
+   15  ls
+   16  vim demo.txt
+   17  sort demo.txt
+   18  sort -r demo.txt
+   19  ls
+   20  cp demo.txt gcp
+   21  ls gcp
+   22  ls
+   23  cat gcp/demo.txt 
+   24  cp -r aws gcp
+   25  ls gcp
+   26  ls gcp/aws
+   27  cp -rv gcp dir1
+   28  ls
+   29  mv dir1 dir10
+   30  ls
+   31  ls dir10
+   32  mv demo.txt demo
+   33  ls
+   34  mv demo.txt demo1
+   35  ls
+   36  history
+   37  man
+   38  touch --help
+   39  shutdown
+   40  tty
+   41  who
+   42  who am i
+   43  cal
+   44  cal 07 2024
+   45  cal -6
+   46  cal -3
+   47  free -h
+   48  lsusb
+   49  lscpu
+   50  dmidecode
+   51  which
+   52  which ls
+   53  cd bin ls
+   54  ls
+   55  rm -r
+   56  rm -rvf dir{1..20}
+   57  ls
+   58  rm -r demo demo1 gcp
+   59  y
+   60  y
+   61  y
+   62  ls
+   63  cd aws
+   64  ls
+   65  cd ..
+   66  ls
+   67  mkdir /practice/Audios
+   68  mkdir practice
+   69  cd practice
+   70  mkdir /practice/Audios
+   71  mkdir Audios Videos Documents
+   72  ls
+   73  touch Audios/song.mp3{1..10}
+   74  ls Adios
+   75  ls Audios
+   76  cd ../../..
+   77  ls
+   78  cal/etc/passwd
+   79  cat/etc/passwd
+   80  cat etc/passwd
+   81  useradd rohit
+   82  ls
+   83  cat etc/passwd
+   84  useradd vaibhav
+   85  cat etc/passwd
+   86  cat etc/shadow
+   87  clear
+   88  ls
+   89  cd etc
+   90  ls
+   91  cd ../..
+   92  ls
+   93  cd home/ec2-user
+   94  ls
+   95  su rohit
+   96  ls
+   97  lsaws
+   98  ls aws
+   99  ls ll
+  100  ls -ll
+  101  mkdir gcp azure
+  102  ls
+  103  touch rohit
+  104  ls -ll
+  105  mkdir a/b/c/d/e/f
+  106  mkdir -p a/b/c/d/e/f
+  107  ls
+  108  ls a/b/c
+  109  vim rohit
+  110  cat rohit
+  111  sort rohit
+  112  head rohit
+  113  tail 20 rohit
+  114  tail rohit 20
+  115  sort -r rohit
+  116  head -5 rohit
+  117  ls
+  118  cp -r a aws
+  119  ls
+  120  ls aws
+  121  mv -r gcp azure
+  122  mv -r a azure
+  123  mv gcp azure
+  124  ls
+  125  ls azure
+  126  ls
+  127  mkdir demo
+  128  ls
+  129  rm demo
+  130  rm -r demo
+  131  ls
+  132  mkdir demo2
+  133  rmdir demo2
+  134  ls
+  135  cd a
+  136  ls
+  137  cd ..
+  138  mkdir azure/pp
+  139  ls azure
+  140  ls azure/gcp
+  141  find --help
+  142  man find
+  143  cd ..
+  144  cd..
+  145  cd ..
+  146  ls
+  147  ls etc
+  148  cd home/ec2-user/
+  149  ls
+  150  useradd rohit
+  151  cat /etc/passwd
+  152  history
